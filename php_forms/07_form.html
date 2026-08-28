@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Form handaling with php</title>
+  </head>
+  <body>
+    <form action="./07_form.php" method="post">
+      <input type="text" name="username" placeholder="enter your username" />
+      <br />
+      <br />
+      <input
+        type="password"
+        name="password"
+        placeholder="enter your password"
+      />
+      <br />
+      <br />
+      <input type="email" name="email" placeholder="enter your email" />
+      <br />
+      <br />
+
+      <input type="checkbox" value="java" name="skills[]" <spam>JAVA</spam>
+       <br />
+       <br />
+        <input type="checkbox" value="php" name="skills[]" <spam>PHP</spam>
+         <br />
+          <br />
+          <input type="checkbox" value="javascript" name="skills[]" <spam>JAVASCRIPT</spam>
+      <br />
+      <br />
+
+ <input type="radio" value="male" name="gender"> <spam>male</spam>
+      <br />
+      <br />
+  <input type="radio" value="female" name="gender"><spam>female</spam>
+   <br />
+     <br />
+
+  <select name="city">
+    <option value="">Select your city</option>
+    <option value="pune">Pune</option>
+    <option value="beed">Beed</option>
+    <option value="parli">Parli</option>
+</select>
+
+
+  <br />
+      <br />
+
+      <textarea name="bio">tell about self</textarea>
+       <br />
+      <br />
+
+      <button>sign up</button>
+
+    </form>
+  </body>
+</html>
